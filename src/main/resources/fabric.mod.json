@@ -8,10 +8,11 @@
     "LotsOfBlochs"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://github.com/LotsOfBlochs/My-First-Mod",
+    "issues": "https://github.com/LotsOfBlochs/My-First-Mod/issues",
+    "sources": "https://github.com/LotsOfBlochs/My-First-Mod"
   },
-  "license": "MIT",
+  "license": "CCO-1.0",
   "icon": "assets/first/icon.png",
   "environment": "*",
   "mixins": [
