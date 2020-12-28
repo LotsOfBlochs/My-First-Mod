@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "first:netherite_plated_gold"
+          "name": "blochs:netherite_plated_gold"
         }
       ],
       "conditions": [

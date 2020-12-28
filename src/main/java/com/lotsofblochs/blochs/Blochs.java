@@ -10,16 +10,16 @@ import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 
-public class Blochs implements ModInitializer {
+public class Blochs implements ModInitializer{
 
     public static final String MOD_ID = "blochs";
 
 
     @Override
     public void onInitialize() {
-        ModItems.registerItems();
-        ModBlocks.registerItems();
-        ModBlockItems.registerBlockItems();
-        CustomPortalApiRegistry.addPortal(ModBlocks.NETHERITE_PLATED_GOLD, PortalIgnitionSource.ItemUseSource(Items.WATER_BUCKET), new Identifier("first", "the_alther"), 0, 0, 255);
+        ModItems.init();
+        ModBlocks.init();
+        ModBlockItems.init();
+        CustomPortalApiRegistry.addPortal(ModBlocks.NETHERITE_PLATED_GOLD, PortalIgnitionSource.ItemUseSource(Items.WATER_BUCKET), new Identifier("blochs", "the_alther"), 0, 0, 255);
     }
 }

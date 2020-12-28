@@ -10,7 +10,7 @@ public class ModItems {
 
     public static final Item DIAMOND_FRAGMENT = new Item(new Item.Settings().group(ItemGroup.MISC));
 
-    public static void registerItems() {
+    public static void init() {
         Registry.register(Registry.ITEM, new Identifier(Blochs.MOD_ID, "diamond_fragment"), DIAMOND_FRAGMENT);
     }
 }

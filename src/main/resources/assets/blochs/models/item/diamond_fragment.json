@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "first:items/diamond_fragment"
+    "layer0": "blochs:items/diamond_fragment"
   }
 }

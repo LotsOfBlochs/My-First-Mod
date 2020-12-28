@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "first:block/netherite_plated_gold"
+      "model": "blochs:block/netherite_plated_gold"
     }
   }
 }

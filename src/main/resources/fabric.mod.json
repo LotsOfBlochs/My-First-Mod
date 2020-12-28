@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "first",
+  "id": "blochs",
   "version": "${version}",
   "name": "My First Mod",
   "description": "My First Mod to start learning about Modding.",
