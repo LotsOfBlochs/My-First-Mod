@@ -1,0 +1,28 @@
+{
+  "type": {
+    "name": "first:the_alther",
+    "ultrawarm": false,
+    "natural": true,
+    "piglin_safe": false,
+    "respawn_anchor_works": true,
+    "bed_works": true,
+    "has_raids": false,
+    "has_skylight": false,
+    "has_ceiling": true,
+    "coordinate_scale": 64,
+    "ambient_light": 1,
+    "fixed_time": 12000,
+    "logical_height": 128,
+    "infiniburn": "minecraft:infiniburn_overworld"
+  },
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1930419879,
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "seed": 1930419879,
+      "biome": "minecraft:plains"
+    },
+    "settings": "minecraft:overworld"
+  }
+}

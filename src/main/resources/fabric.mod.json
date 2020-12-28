@@ -13,17 +13,20 @@
     "sources": "https://github.com/LotsOfBlochs/My-First-Mod"
   },
   "license": "CCO-1.0",
-  "icon": "assets/first/icon.png",
+  "icon": "assets/blochs/icon.png",
   "environment": "*",
   "mixins": [
     {
-      "config": "first.mixins.json",
+      "config": "blochs.mixins.json",
       "environment": "*"
     }
   ],
   "entrypoints": {
     "main": [
-      "com.lotsofblochs.first.First"
+      "com.lotsofblochs.blochs.Blochs"
+    ],
+    "client": [
+      "com.lotsofblochs.blochs.BlochsClient"
     ]
   },
   "depends": {
