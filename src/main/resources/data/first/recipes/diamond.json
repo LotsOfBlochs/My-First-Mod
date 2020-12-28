@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "first:diamond_fragment"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}
