@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "A",
-    "A",
-    "S"
+    "DDD",
+    "DDD",
+    "DDD"
   ],
   "key": {
-    "A": {
+    "D": {
       "item": "blochs:aspect_of_life"
-    },
-    "S": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "blochs:aspect_of_life_sword",
+    "item": "minecraft:aspect_of_life_block",
     "count": 1
   }
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "A",
-    "A",
-    "S"
+    "AA ",
+    "AS ",
+    " S "
   ],
   "key": {
     "A": {
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "blochs:aspect_of_life_sword",
+    "item": "blochs:aspect_of_life_axe",
     "count": 1
   }
 }

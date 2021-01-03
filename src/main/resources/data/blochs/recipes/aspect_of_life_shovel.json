@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "A",
-    "A",
+    "S",
     "S"
   ],
   "key": {
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "blochs:aspect_of_life_sword",
+    "item": "blochs:aspect_of_life_shovel",
     "count": 1
   }
 }
