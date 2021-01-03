@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "blochs:item/aspect_of_life_chestplate"
+  }
+}

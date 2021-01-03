@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "blochs:block/netherite_plated_gold"
+    "all": "blochs:block/aspect_of_life_block"
   }
 }
