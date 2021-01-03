@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": "blochs:aspect_of_life_block",
+  "result": {
+    "item": "blochs:aspect_of_life",
+    "count": 9
+  }
+}

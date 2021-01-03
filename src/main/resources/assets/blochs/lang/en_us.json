@@ -1,4 +1,18 @@
 {
   "item.blochs.diamond_fragment": "Diamond Fragment",
+  "item.blochs.aspect_of_life_shovel": "Aspect Of Life Shovel",
+  "item.blochs.aspect_of_life_sword": "Aspect Of Life Sword",
+  "item.blochs.aspect_of_life_pickaxe": "Aspect Of Life Pickaxe",
+  "item.blochs.aspect_of_life_axe": "Aspect Of Life Axe",
+  "item.blochs.aspect_of_life_hoe": "Aspect Of Life Hoe",
+  "item.blochs.aspect_of_life": "Aspect Of Life",
+  "item.blochs.aspect_of_life_helmet": "Aspect Of Life Helmet",
+  "item.blochs.aspect_of_life_chestplate": "Aspect Of Life Chestplate",
+  "item.blochs.aspect_of_life_leggings": "Aspect Of Life Leggings",
+  "item.blochs.aspect_of_life_boots": "Aspect Of Life Boots",
+  "item.blochs.soul_fragment": "Soul Fragment",
+  "item.blochs.soul": "Soul",
+  "item.blochs.heart": "Heart",
+  "block.blochs.aspect_of_life_block": "Aspect Of Life Block",
   "block.blochs.netherite_plated_gold": "Netherite Plated Gold Block"
 }

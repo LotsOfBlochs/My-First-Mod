@@ -3,6 +3,7 @@
   "package": "com.lotsofblochs.blochs.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ArmorItemMixin"
   ],
   "client": [
   ],

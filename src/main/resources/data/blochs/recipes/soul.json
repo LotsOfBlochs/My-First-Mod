@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "blochs:soul_fragment"
+    }
+  },
+  "result": {
+    "item": "blochs:soul",
+    "count": 1
+  }
+}

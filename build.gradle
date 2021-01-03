@@ -26,13 +26,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// customportalapi
-	modImplementation 'net.kyrptonaught:customportalapi:0.0.1-beta20-1.16'
-	include 'net.kyrptonaught:customportalapi:0.0.1-beta20-1.16'
-
-	//Crowdin Translations
-	modImplementation "de.guntram.mcmod:crowdin-translate:1.2"
-	include "de.guntram.mcmod:crowdin-translate:1.2"
-
+	modImplementation "net.kyrptonaught:customportalapi:${project.customportalapi_version}"
+	include "net.kyrptonaught:customportalapi:${project.customportalapi_version}"
 }
 
 processResources {
