@@ -1,4 +1,4 @@
-package com.lotsofblochs.blochs.tools;
+package com.lotsofblochs.blochs.items.tools;
 
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;

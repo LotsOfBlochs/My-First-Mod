@@ -1,6 +1,7 @@
-package com.lotsofblochs.blochs.tools;
+package com.lotsofblochs.blochs.items.tools;
 
-import com.lotsofblochs.blochs.registery.ModItems;
+import com.lotsofblochs.blochs.items.GenericItems;
+import com.lotsofblochs.blochs.registery.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -35,6 +36,6 @@ public class AspectOfLifeTier implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.ASPECT_OF_LIFE_SWORD);
+        return Ingredient.ofItems(GenericItems.ASPECT_OF_LIFE_BOOTS);
     }
 }

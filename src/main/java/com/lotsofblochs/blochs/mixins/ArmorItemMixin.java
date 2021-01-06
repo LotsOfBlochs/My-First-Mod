@@ -2,7 +2,8 @@ package com.lotsofblochs.blochs.mixins;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
-import com.lotsofblochs.blochs.registery.ModItems;
+import com.lotsofblochs.blochs.items.GenericItems;
+import com.lotsofblochs.blochs.registery.Items;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
@@ -31,7 +32,7 @@ public abstract class ArmorItemMixin {
     private void constructor(ArmorMaterial material, EquipmentSlot slot, Item.Settings settings, CallbackInfo ci) {
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
 
-        if (material == ModItems.aspectOfLifeArmor) {
+        if (material == GenericItems.aspectOfLifeArmor) {
             ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
 
             this.attributeModifiers.forEach(builder::put);

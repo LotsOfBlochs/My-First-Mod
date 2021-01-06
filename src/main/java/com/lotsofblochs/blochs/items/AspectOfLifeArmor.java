@@ -1,6 +1,6 @@
-package com.lotsofblochs.blochs.tools;
+package com.lotsofblochs.blochs.items;
 
-import com.lotsofblochs.blochs.registery.ModItems;
+import com.lotsofblochs.blochs.registery.Items;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -33,7 +33,7 @@ public class AspectOfLifeArmor implements ArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.ASPECT_OF_LIFE_BOOTS);
+        return Ingredient.ofItems(GenericItems.ASPECT_OF_LIFE_BOOTS);
     }
 
     @Override

@@ -1,6 +1,7 @@
 package com.lotsofblochs.blochs;
 
-import com.lotsofblochs.blochs.registery.ModBlocks;
+import com.lotsofblochs.blochs.registery.Blocks;
+import com.lotsofblochs.blochs.registery.Entities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -10,6 +11,7 @@ public class BlochsClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient(){
-        ModBlocks.initClient();
+        Blocks.initClient();
+        Entities.initClient();
     }
 }
