@@ -18,7 +18,7 @@ public class SoulEaterEntity extends HostileEntity {
     public static final EntityType<SoulEaterEntity> SOUL_EATER = Registry.register(
             Registry.ENTITY_TYPE,
             new Identifier(Blochs.MOD_ID, "soul_eater"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, SoulEaterEntity::new).dimensions(EntityDimensions.fixed(1.4f, 2.7f)).build()
+            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, SoulEaterEntity::new).dimensions(EntityDimensions.fixed(1.5f, 2.75f)).build()
     );
 
 }

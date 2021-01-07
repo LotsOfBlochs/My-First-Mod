@@ -1,6 +1,6 @@
 package com.lotsofblochs.blochs.items;
 
-import com.lotsofblochs.blochs.registery.Items;
+import com.lotsofblochs.blochs.items.GenericItems;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;

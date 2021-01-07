@@ -11,7 +11,7 @@ public class SoulEaterEntityModel extends EntityModel<SoulEaterEntity> {
 
     public SoulEaterEntityModel() {
         base = new ModelPart(this, 0, 0);
-        base.addCuboid(-6, -6, -6, 12, 12, 12);
+        base.addCuboid(-12, -38, -12, 24, 44, 24);
     }
 
     @Override

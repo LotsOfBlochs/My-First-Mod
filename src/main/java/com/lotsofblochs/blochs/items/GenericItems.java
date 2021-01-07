@@ -1,7 +1,6 @@
 package com.lotsofblochs.blochs.items;
 
 import com.lotsofblochs.blochs.items.tools.*;
-import com.lotsofblochs.blochs.items.AspectOfLifeArmor.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 
