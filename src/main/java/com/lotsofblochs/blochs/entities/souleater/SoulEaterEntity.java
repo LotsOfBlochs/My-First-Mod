@@ -22,3 +22,4 @@ public class SoulEaterEntity extends HostileEntity {
     );
 
 }
+/*TODO:Add Texture, Pathfinding, Tags, drops*/
