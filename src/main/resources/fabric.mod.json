@@ -15,6 +15,7 @@
   "license": "CCO-1.0",
   "icon": "assets/blochs/icon.png",
   "environment": "*",
+  "accessWidener" : "blochs.accesswidener",
   "mixins": [
     {
       "config": "blochs.mixins.json",
